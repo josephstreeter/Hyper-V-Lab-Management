@@ -14,5 +14,5 @@ Copy-VM -VMName "FR-DH-02" -VMProc 1 -VMMem 2GB -VMTemplate "w2k16_gui" -VMNet "
 ### Cleanup-VM
 Takes the name of a single VM and deletes it from Hyper-V and deletes the files and folders associated with the VM
 ~~~PowerShell
-Cleanup-VM server-01
+Cleanup-VM "server-01"
 ~~~
