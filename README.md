@@ -1,8 +1,8 @@
 # Hyper-V-Lab-Management
-A collection of script used to configure and management a Hyper-V lab.
+A collection of functions used to configure and management my Hyper-V lab.
 
 ## Lab Infrastructure
-The lab consists of a number of Inel NUC computers. 
+The lab consists of a number of Inel NUC computers. Each host has Microsoft Hyper-V 2016 server installed and are not configured to be a cluster, but simply individual hosts. Each NUC has a USB NIC adapter that provides two additional network interfaces in addition to the one built into the NUC. These additional network interfaces allow for placing VMs on separate VLANs from the builtin NIC used as the management interface. 
 
 ## Functions
 ### Copy-VM
