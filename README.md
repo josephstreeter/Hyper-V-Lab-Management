@@ -1,6 +1,8 @@
 # Hyper-V-Lab-Management
 A collection of script used to configure and management a Hyper-V lab.
 
+## Lab Infrastructure
+The lab consists of a number of Inel NUC computers. 
 
 ## Functions
 ### Copy-VM
